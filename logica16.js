@@ -12,5 +12,6 @@ function pali(c){
 		return console.log(`A palavra ${a} ao contrario é ${investida} portanto é um palíndromo`);
 	}else return console.log(`A palavra ${a} ao contrario é ${investida} por tanto não é um palíndromo`);
 }
-let palavra = pompt('Digite uma palavra para saber se ela é um palíndromo.');
+let palavra = prompt('Digite uma palavra para saber se ela é um palíndromo.');
+
 pali(palavra)
