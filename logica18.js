@@ -7,4 +7,9 @@ Ordenar em ordem decrescente.
 Mostrar apenas os 5 maiores.
 🏆 Recompensa: +120 XP**/
 
-let forja = [1, 2, 3, 4, 5];
+let conjuntos = [0];
+for(i=0; i<10; i++){
+	conjuntos[i] = Math.floor(Math.random()*100);
+}
+
+let forja = conjuntos.sort((a, b) => b-a);
