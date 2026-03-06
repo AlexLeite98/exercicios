@@ -13,4 +13,4 @@ for(i=0; i<10; i++){
 }
 
 let forja = conjuntos.sort((a, b) => b-a);
-alert(`SUCESSO!!! sua espada foi forjada com as seguintes runas [${forja[0]}] [${forja[1]}] [${forja[2]}] [${forja3]}] [${forja[4]}]`)
+alert(`SUCESSO!!! sua espada foi forjada com as seguintes runas [${forja[0]}] [${forja[1]}] [${forja[2]}] [${forja[3]}] [${forja[4]}]`);
