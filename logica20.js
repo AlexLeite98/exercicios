@@ -29,11 +29,13 @@ for(i=1; i<=20; i++){
 	geraldo -= atk_boss;
 	boss -= atk_geraldo;
 	
-	if(geraldo==0){
+	if(geraldo<=0){
 		alert('VOCÊ MORREU!!!');
 		i = 20;
-	}else if(boss==0){
+	}else if(boss<=0){
 		alert('Boss foi derrotado, Geraldo venceu!!!');
 		i=20;
+	}else if(i==20){
+		alert('Ambos cairam exaltos! EMPATE!!')
 	}
 }
