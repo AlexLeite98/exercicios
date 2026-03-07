@@ -15,4 +15,9 @@ Título desbloqueado: "Bruxo do Código" **/
 //console.log(`${}`); \n
 //Math.floor(Math.random() * (max - min + 1)) + min
 
+let geraldo = 100;
+let espectro = 80;
 
+for(i=1; i<=50; i++){
+	
+}
