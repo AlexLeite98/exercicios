@@ -13,3 +13,6 @@ Mostrar quem venceu.
 🏆 Recompensa: +500 XP
 Título desbloqueado: "Bruxo do Código" **/ 
 //console.log(`${}`); \n
+//Math.floor(Math.random() * (max - min + 1)) + min
+
+
