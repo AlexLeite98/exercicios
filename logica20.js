@@ -19,10 +19,10 @@ let geraldo = 100;
 let boss = 80;
 
 for(i=1; i<=2; i++){
-	alert(`TURNO [${i}]\n\n Geraldo o Bruxo [HP:${geraldo}] X Boss Caçada selvagem [HP:${boss}]`)
+	alert(`TURNO [${i}]\n\nGeraldo o Bruxo [HP:${geraldo}] X Boss Caçada selvagem [HP:${boss}]`)
 	
 	let atk_geraldo = Math.floor(Math.random()*(20-10 + 1)) + 10;
 	let atk_boss = Math.floor(Math.random()*(15-5 + 1)) + 5;
 	
-	alert(`Geraldo da ${atk_geraldo} de dano!\n Boss da ${atk_boss} de dano!`)
+	alert(`Geraldo da ${atk_geraldo} de dano!\nBoss da ${atk_boss} de dano!`)
 }
