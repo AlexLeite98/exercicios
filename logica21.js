@@ -26,6 +26,6 @@ for(i=0; i<2; i++){
 		alert(d20);
 		
 	}else if(dado==6){
-		i=2
+		i+=2
 	}
 }
