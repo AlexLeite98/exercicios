@@ -1,1 +1,3 @@
 //console.log(`${}`); \n
+//DADOS (d4, d6, d8, d12, d20)
+
