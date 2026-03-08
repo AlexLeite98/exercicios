@@ -6,7 +6,7 @@ for(i=0; i<2; i++){
 	
 	if(dado==1){
 		for(i=0; i<1; i++){
-			let d4 = Math.floor(Math.random((4-1 + 1)*1));
+			let d4 = Math.floor(Math.random() * (4-1 + 1)+ 1);
 			alert(d4)
 		}
 	}
