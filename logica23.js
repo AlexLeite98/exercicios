@@ -6,7 +6,26 @@ Receber uma palavra
 Contar quantas vogais existem nela **/
 //console.log(`${}`); \n
 
-let plavra = prompt('Diga o ingrediente mágico para saber quanta magia te nele.');
-let ingrediente = plavra.toUpperCase();
+let palavra = prompt('Diga o ingrediente mágico para saber quanta magia te nele.');
+let maiusculo = palavra.toUpperCase();
+let ingrediente = maiusculo.split()
+let cont = 0
 
-alert(ingrediente)
+for(i=0; i<palavra.length; i++){
+	if(ingrediente[i]=='A'){
+		cont+=1;
+		
+	}else if(ingrediente[i]=='E'){
+		cont+=1;
+		
+	}else if(ingrediente[i]=='I'){
+		cont+=1;
+		
+	}else if(ingrediente[i]=='O'){
+		cont+=1;
+		
+	}else if(ingrediente[i]=='U'){
+		cont+=1;
+		
+	}
+}
