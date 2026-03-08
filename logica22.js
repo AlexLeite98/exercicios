@@ -13,15 +13,16 @@ const senha = '1234';
 let cont = 0;
 
 for(i=0; i<1; i++){
+	i-=1;
 	let cofre = prompt('Digite a senha do cofre.');
 	cont+=1;
 	
 	if(cofre==senha){
 		alert('Cofre aberto!');
-		i+=2
+		i+=1;
 		
-	}else if(i==2){
+	}else if(cont==3){
 		alert('Cofre bloqueado!');
-		i+=1
+		i+=1;
 	}
 }
