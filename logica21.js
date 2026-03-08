@@ -6,6 +6,9 @@ for(i=0; i<3; i++){
 	
 	if(dado==1){
 		let d4 = Math.floor(Math.random()*(4-1 + 1)+1);
-		alert(d4)
+		alert(d4);
+	}else if(dado==2){
+		let d6 = Math.floor(Math.random()*(6-1 + 1)+1);
+		alert(d6)
 	}
 }
