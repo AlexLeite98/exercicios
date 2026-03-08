@@ -11,5 +11,8 @@ for(i=0; i<2; i++){
 	}else if(dado==2){
 		let d6 = Math.floor(Math.random()*(6-1 + 1)+1);
 		alert(d6)
-	}else if()
+	}else if(dado==3){
+		let d8 = Math.floor(Math.random()*(8-1 + 1)+1);
+		alert(d8)
+	}
 }
