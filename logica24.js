@@ -4,5 +4,5 @@
  let teste = [1, 2, 3, 4, 5];
  alert(teste);
  
- teste.splice(2, 2, 4, 3);
+ teste.splice(5, 0, 'alex');
  alert(teste)
