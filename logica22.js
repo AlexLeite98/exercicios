@@ -16,9 +16,10 @@ for(i=0; i<=3; i++){
 	let cofre = prompt('Digite a senha do cofre.');
 	
 	if(cofre==senha){
-		let aberto = alert('Cofre aberto!');
+		alert('Cofre aberto!');
 		
 	}else if(i==2){
-		
+		alert('Cofre bloqueado!');
+		i+=1
 	}
 }
