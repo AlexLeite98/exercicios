@@ -10,4 +10,15 @@ Se errar 3 vezes → "Cofre bloqueado" **/
 //console.log(`${}`); \n
 
 const senha = '1234';
-let cofre = prompt('Digite a senha do cofre.');
+let cont = 0;
+
+for(i=0; i<=3; i++){
+	let cofre = prompt('Digite a senha do cofre.');
+	
+	if(cofre==senha){
+		let aberto = alert('Cofre aberto!');
+		
+	}else if(i==2){
+		
+	}
+}
