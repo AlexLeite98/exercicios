@@ -8,11 +8,24 @@ for(i=0; i<2; i++){
 	if(dado==1){
 		let d4 = Math.floor(Math.random()*(4-1 + 1)+1);
 		alert(d4);
+		
 	}else if(dado==2){
 		let d6 = Math.floor(Math.random()*(6-1 + 1)+1);
-		alert(d6)
+		alert(d6);
+		
 	}else if(dado==3){
 		let d8 = Math.floor(Math.random()*(8-1 + 1)+1);
-		alert(d8)
+		alert(d8);
+		
+	}else if(dado==4){
+		let d12 = Math.floor(Math.random()*(12-1 + 1)+1);
+		alert(d12);
+		
+	}else if(dado==5){
+		let d20 = Math.floor(Math.random()*(20-1 + 1)+1);
+		alert(d20);
+		
+	}else if(dado==6){
+		i=2
 	}
 }
