@@ -8,7 +8,7 @@ Contar quantas vogais existem nela **/
 
 let palavra = prompt('Diga o ingrediente mágico para saber quanta magia te nele.');
 let maiusculo = palavra.toUpperCase();
-let ingrediente = maiusculo.split()
+let ingrediente = maiusculo.split('')
 let cont = 0
 
 for(i=0; i<palavra.length; i++){
@@ -29,3 +29,4 @@ for(i=0; i<palavra.length; i++){
 		
 	}
 }
+alert(cont)
