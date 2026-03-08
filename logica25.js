@@ -9,3 +9,5 @@ Listar itens **/
 //console.log(`${}`); \n
 
 let bag = ['Espada de prata', 'Poção'];
+let itens = ['Espada de Aço', 'Bomba', 'Espada de Aço', 'Cela de Cavalo', 'Poção']
+
