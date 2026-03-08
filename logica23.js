@@ -29,4 +29,4 @@ for(i=0; i<palavra.length; i++){
 		
 	}
 }
-alert(`Seu ingrediente tem ${cont} magiculas.`)
+alert(`Seu ingrediente tem ${cont} magiculas.`);
