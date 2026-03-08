@@ -7,3 +7,5 @@ Adicionar item
 Remover item
 Listar itens **/
 //console.log(`${}`); \n
+
+let bag = ['Espada de prata', 'Poção'];
