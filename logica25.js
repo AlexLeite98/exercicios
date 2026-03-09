@@ -8,3 +8,12 @@ Remover item
 Listar itens **/
 //console.log(`${}`); \n
 
+function add(x){
+	bag.splice(0,0, x)
+}
+
+function remover(x){
+	bag.splice(x,1);
+}
+let bag = [];
+
