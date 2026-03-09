@@ -9,8 +9,12 @@ Listar itens **/
 //console.log(`${}`); \n
 
 let bag = ['Espada de prata', 'Poção'];
-let itens = ['Espada de Aço', 'Bomba', 'Espada de Aço', 'Cela de Cavalo', 'Poção'];
+let itens = ['Espada de Aço', 'Bomba', 'Espada de Prata', 'Cela de Cavalo', 'Poção'];
 
 for(i=0; i<1; i++){
-	let opcao = Number(prompt('Vc deseja adicionar ou remover intens ao seu inventario? \n[1] Adicionar \n[2] Remover'))
+	let opcao = Number(prompt('Vc deseja adicionar ou remover intens ao seu inventario? \n[1] Adicionar \n[2] Remover \n[3] Sair'));
+	
+	if(opcao==1){
+		let add = Number(prompt(`O que vc deseja adicionar \n[${itens[0]}] \n[${itens[1]}] \n[${itens[2]}] \n[${itens[3]}] \n[${itens[4]}]`));
+	}
 }
