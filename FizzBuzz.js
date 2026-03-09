@@ -1,12 +1,15 @@
 
-let num = 15;
-for(i==1; i>=100; i++){
-    if(num%3==0 && num%5==0){
+let cont = 0;
+for(i=1; i<=100; i++){
+    cont+=1
+    if(i%3==0 && i%5==0){
         console.log('FizzBuzz')
-    }else if(num%3==0){
+    }else if(i%3==0){
         console.log('Fizz')
-    }else if(num%5==0){
+    }else if(i%5==0){
         console.log('Buzz')
+    }else{
+        console.log(cont)
     }
-    console.log(i)
+    
 }
