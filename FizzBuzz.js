@@ -8,3 +8,5 @@ for(i==1; i>=100; i++){
     }else if(num%5==0){
         console.log('Buzz')
     }
+    console.log(i)
+}
