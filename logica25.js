@@ -18,7 +18,7 @@ function remover(x){
 
 let bag = [];
 let itens = ['Espada', 'Poção', 'Bomba'];
-for(i=0; i>1; i++){
+for(i=0; i<1; i++){
 	
 	let opcao = Number(prompt(`o que vc deseja adcionar ao inventario? \n[1] ${itens[0]} \n[2] ${itens[1]} \n[3] ${itens[2]}`))
 }
