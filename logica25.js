@@ -21,11 +21,20 @@ let itens = ['Espada', 'Poção', 'Bomba'];
 for(i=0; i<1; i++){
 	
 	let opcao = Number(prompt(`O que vc deseja adcionar ao inventario? \n[1] ${itens[0]} \n[2] ${itens[1]} \n[3] ${itens[2]}`))
+	
 	if(opcao==1){
 		add(itens[0])
 	}else if(opcao==2){
 		add(itens[1])
 	}else if(opcao==3){
 		add(itens[2])
+	}
+	alert(bag)
+	
+	let exit = Number(prompt('Deseja continuar? \n[1]SIM \n[2]NÃO'));
+	if(exit==1){
+		i-=1;
+	}else if(exit==2){
+		i+=1;
 	}
 }
